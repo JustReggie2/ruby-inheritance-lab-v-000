@@ -1,9 +1,11 @@
 class User
-  attr_writer :first_name, :last_name
 
-  def initialize
+  def first_name=(first_name)
+    @first_name = first_name)
+  end
+
+  def first_name
     @first_name
-    @last_name
   end
 
 end
